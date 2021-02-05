@@ -1,0 +1,5 @@
+pp=peripheral.wrap("top")
+pp.setTextScale(0.5)
+term.redirect(pp)
+local image = paintutils.loadImage("woi")
+paintutils.drawImage(image,1 , 1)
